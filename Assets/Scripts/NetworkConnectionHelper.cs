@@ -95,4 +95,9 @@ public class NetworkConnectionHelper : MonoBehaviour
     {
         NetworkManager.Singleton.StartClient();
     }
+
+    public void Test()
+    {
+        Debug.Log("Test");
+    }
 }

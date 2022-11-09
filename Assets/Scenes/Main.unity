@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1797212, g: 0.22502993, b: 0.30654466, a: 1}
+  m_IndirectSpecularColor: {r: 0.1797218, g: 0.22503048, b: 0.3065457, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -808,6 +808,100 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4468544496900704, guid: 92ee22fffd72bd9468071a544a4fd4cb, type: 3}
   m_PrefabInstance: {fileID: 1327467361}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1393357990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+  m_PrefabInstance: {fileID: 1424827608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1424827608
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1710055421}
+    m_Modifications:
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1845582373}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NetworkConnectionHelper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174955776655707806, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.071
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903862454882072, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903863008004601, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_Name
+      value: InteractionTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829903863595505673, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
+      propertyPath: m_text
+      value: Test
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72dfeb9ecf5ad884b87eff8bc5b49276, type: 3}
 --- !u!1001 &1431232830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1053,6 +1147,7 @@ Transform:
   m_Children:
   - {fileID: 55816990}
   - {fileID: 1431232831}
+  - {fileID: 1393357990}
   m_Father: {fileID: 1728581504}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1133,7 +1228,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_SelectMode: 1
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
@@ -1644,11 +1739,11 @@ PrefabInstance:
       objectReference: {fileID: 9120449586768039752, guid: 98040aac1e7b8e3479c0b7638eeb1978, type: 3}
     - target: {fileID: 6681939588914964549, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
       propertyPath: ConnectAddress
-      value: 20.124.123.51
+      value: 192.168.0.16
       objectReference: {fileID: 0}
     - target: {fileID: 6681939588914964549, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
       propertyPath: SecureConnection
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6681939588914964550, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
       propertyPath: m_Name
