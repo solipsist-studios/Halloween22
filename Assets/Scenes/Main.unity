@@ -1743,7 +1743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681939588914964549, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
       propertyPath: SecureConnection
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681939588914964549, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
+      propertyPath: CertificateBase64String
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6681939588914964550, guid: 07e0d9d23be817b4e93dadbb2b5ada4c, type: 3}
       propertyPath: m_Name
